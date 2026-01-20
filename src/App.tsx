@@ -7,7 +7,7 @@ function App() {
           <p className='w-[500px] text-5xl'>Site Informativo de Apoio Psicológico</p>
           <p className='w-[500px] text-3xl italic text-center'>“Você não está sozinho”</p>
         </span>
-        <img src='/src/assets/cover.png' className='h-[800px]' />
+        <img src='/assets/cover.png' className='h-[800px]' />
       </section>
 
       <section id="content" className=' bg-gray-300/80 rounded-md p-20'>
@@ -43,7 +43,7 @@ function App() {
               </div>
             </span>
           </div>
-          <img src='/src/assets/meditation.svg' className='h-[700px]' />
+          <img src='/assets/meditation.svg' className='h-[700px]' />
         </div>
       </section>
       <section id='about' className='flex-1 py-12'>
@@ -56,7 +56,7 @@ function App() {
               <p>Este projeto acredita que a informação pode ser um primeiro passo para o cuidado, e que ninguém precisa enfrentar seus sentimentos sozinho.</p>
             </div>
           </div>
-          <img src='/src/assets/flower.svg' className='h-[400px]' />
+          <img src='/assets/flower.svg' className='h-[400px]' />
         </div>
       </section>
     </div>

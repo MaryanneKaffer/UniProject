@@ -8,7 +8,7 @@ export default function DefaultLayout({ children }: DefaultLayoutProps) {
     return (
         <div className="h-[100dvh] flex flex-col">
             <div className="flex h-[48px] w-full bg-gray-300/20 backdrop-blur-sm px-38 py-2 fixed">
-                <img src="../src/assets/logo.svg" className="h-[40px]" />
+                <img src="/assets/logo.svg" className="h-[40px]" />
                 <span className="mx-auto flex gap-12">
                     <a href="#home" className="text-2xl"> Início </a>
                     <a href="#content" className="text-2xl"> Conteúdo </a>
@@ -24,7 +24,7 @@ export default function DefaultLayout({ children }: DefaultLayoutProps) {
             </main>
 
             <footer className="bg-zinc-900 text-white px-38 py-6">
-                <img src="../src/assets/logo.svg" className="h-[40px]" />
+                <img src="/assets/logo.svg" className="h-[40px]" />
                 <div className="bg-white h-0.5 w-full my-4" />
                 <div className="flex flex-col text-white">
                     <p>(xx) xxxxx-xxxx</p>
